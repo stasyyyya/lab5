@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-image: url('фон.jpg');
+    background-image: url('/фон.jpg');
 }
 .container {
     display: flex;
@@ -180,7 +180,7 @@ body {
     
 }
 .it221 {
-    background-image: url('горы.jpg');
+    background-image: url('/горы.jpg');
     background-size: cover;
     background-position: center 70%;
     height: 45%;
@@ -191,7 +191,7 @@ body {
 .it2211 {
     height: 25%;
     width: 10%;
-    background-image: url('влево.png');
+    background-image: url('/влево.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@ body {
 .it2213 {
     height: 25%;
     width: 10%;
-    background-image: url('вправо.png');
+    background-image: url('/вправо.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,7 +296,7 @@ body {
 .it22411 {
     height: 30%;
     margin-top: 20px;
-    background-image: url('сохр.png');
+    background-image: url('/сохр.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -320,7 +320,7 @@ body {
 .it22421 {
     height: 30%;
     margin-top: 20px;
-    background-image: url('стрелки.png');
+    background-image: url('/стрелки.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ body {
 .it22431 {
     height: 30%;
     margin-top: 20px;
-    background-image: url('шестер.png');
+    background-image: url('/шестер.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -376,7 +376,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('вк лого.png');
+    background-image: url('/вк лого.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -386,7 +386,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('лого ок.png');
+    background-image: url('/лого ок.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -396,7 +396,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('лого фс.png');
+    background-image: url('/лого фс.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -405,7 +405,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('лого твит.png');
+    background-image: url('/лого твит.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -414,7 +414,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('лого гугл.png');
+    background-image: url('/лого гугл.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -423,7 +423,7 @@ body {
     width: 12%;
     height: 40%;
     margin-top: 40px;
-    background-image: url('лого плюс.png');
+    background-image: url('/лого плюс.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
