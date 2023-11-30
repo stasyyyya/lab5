@@ -211,11 +211,16 @@ body {
     color: aliceblue;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 .it2212 h1 {
     margin: 0;
 }
 .button7 {
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translateX(-50%);
     text-decoration:none;
     width: 150px;
     height: 50px;
