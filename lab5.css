@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('/images/фон.jpg');
+}
+.container {
+    display: flex;
+    width: 1800px;
+    height: 1450px;
+    flex-direction: column;
+  }
+.it1 {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.it11, .it12, .it13, .it14, .it15, .it16 {
+    margin-top: 20px;
+    width: 16.3%;
+    height: 100px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+}
+.it11 {
+    background-color: rgb(54, 129, 183);
+    
+}
+
+.button1 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button1:hover {
+    background: rgb(0, 76, 255);
+    width: 101%;
+    height: 101%;
+}
+.it12 {
+    background-color: rgb(20, 197, 44);
+}
+.button2 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button2:hover {
+    background: rgb(21, 255, 0);
+    width: 101%;
+    height: 101%;
+}
+.it13 {
+    background-color: rgb(203, 181, 72);
+}
+.button3 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button3:hover {
+    background: rgb(255, 217, 0);
+    width: 101%;
+    height: 101%;
+}
+.it14 {
+    background-color: rgb(112, 29, 221);
+}
+.button4 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button4:hover {
+    background: rgb(132, 0, 255);
+    width: 101%;
+    height: 101%;
+}
+.it15 {
+    background-color: rgb(197, 70, 20);
+}
+.button5 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button5:hover {
+    background: rgb(255, 0, 0);
+    width: 101%;
+    height: 101%;
+}
+.it16 {
+    background-color: rgb(182, 21, 188);
+}
+.button6 {
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+.button6:hover {
+    background: rgb(255, 0, 208);
+    width: 101%;
+    height: 101%;
+}
+.it2 {
+    display: flex;
+    flex-direction: row;
+    height: 1150px;
+    width: 100%;
+}
+.it21 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.it211, .it212, .it213, .it214, .it215 {
+    background-color:rgb(203, 33, 10);
+    height: 15%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+}
+
+.it22 {
+    width: 75%;
+    
+}
+.it221 {
+    background-image: url('/images/горы.jpg');
+    background-size: cover;
+    background-position: center 70%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.it2211 {
+    height: 25%;
+    width: 10%;
+    background-image: url('/images/влево.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it2213 {
+    height: 25%;
+    width: 10%;
+    background-image: url('/images/вправо.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it2212 {
+    width: 80%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 27px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.it2212 h1 {
+    margin: 0;
+}
+.button7 {
+    text-decoration:none;
+    width: 150px;
+    height: 50px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    color: aliceblue;
+    transition: all 0.4s ease;
+    background-color: rgb(20, 197, 44);
+    margin: auto;
+    margin-top: 20px;
+}
+.button7:hover {
+    background: rgb(21, 255, 0);
+    width: 153px;
+    height: 53px;
+}
+.it222 {
+    
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.it2221 {
+    background-color: rgb(203, 181, 72);
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+}
+.it2222 {
+    background-color: rgb(54, 129, 183);
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    color: aliceblue;
+}
+.it223 {
+    height: 8%;
+    text-align: center;
+    font-family: "Palatino Linotype", serif;
+    font-size: 60px;
+    color: aliceblue;
+}
+.it224 {
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.it2241 {
+    background-color: rgb(20, 197, 44);
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.it22411 {
+    height: 30%;
+    margin-top: 20px;
+    background-image: url('/images/сохр.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it22412 {
+    height: 70%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.it2242 {
+    background-color: rgb(112, 29, 221);
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.it22421 {
+    height: 30%;
+    margin-top: 20px;
+    background-image: url('/images/стрелки.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it22422 {
+    height: 70%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.it2243 {
+    background-color: rgb(197, 70, 20);
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.it22431 {
+    height: 30%;
+    margin-top: 20px;
+    background-image: url('/images/шестер.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it22432 {
+    height: 70%;
+    font-family: "Palatino Linotype", serif;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.it3 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+}
+.it31 {
+    margin-top: 20px;
+    width: 600px;
+    height: 150px;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.it311 {
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/вк лого.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it312 {
+
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/лого ок.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it313 {
+
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/лого фс.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it314 {
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/лого твит.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it315 {
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/лого гугл.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it316 {
+    width: 12%;
+    height: 40%;
+    margin-top: 40px;
+    background-image: url('/images/лого плюс.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.it32 {
+    margin-top: 20px;
+    width: 600px;
+    height: 150px;
+    background-color: rgb(37, 36, 36);
+    font-family: "Palatino Linotype", serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 6.8;
+    color: aliceblue;
+    padding-left: 70px;
+}
+.it33 {
+    margin-top: 20px;
+    width: 600px;
+    height: 150px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 20px;
+    text-align: right;
+    line-height: 6.5;
+    padding-right: 70px;
+    color: aliceblue;
+    background-color: rgb(37, 36, 36);
+}
